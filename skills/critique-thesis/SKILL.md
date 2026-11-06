@@ -1,0 +1,63 @@
+---
+name: critique-thesis
+description: >
+  Attacks an Indian-company research memo for missing filings, mixed
+  consolidated and standalone figures, pledge and related-party gaps,
+  and advice language. Use when the user asks for a critique, red team,
+  bear case, or a check of an India investment thesis.
+compatibility: >
+  Agent Skills hosts. Reads the draft memo and, when a filing is cited,
+  the filing. India only.
+---
+
+# Critique thesis
+
+Attack the memo in front of you. Do not write a second bull case. Do not offer a price target.
+
+## Iron rules
+
+1. India only. NSE, BSE, or an India bootstrapped company. Anything else: stop and say so.
+2. Every figure has source, period, and consolidated or standalone. If it is not in a source, write "not found". Do not estimate silently.
+3. INR, with crore or lakh stated. Indian fiscal year (April–March) unless the filing says otherwise.
+4. Separate fact, inference, and opinion.
+5. Promoter holding, pledge, related parties, and auditor notes are part of the analysis.
+6. Close with this disclaimer. No buy, sell, or target presented as advice or as a certain outcome.
+
+> This is an educational research memo, not investment advice, not a SEBI-registered recommendation, and not a solicitation to buy or sell any security. Figures are only as good as the filings cited. You decide what to do with them.
+
+## Checklist
+
+Mark each item pass, fail, or not applicable. A fail needs the sentence in the memo that caused it.
+
+- Figures with no source, period, or consolidated/standalone label.
+- Consolidated and standalone mixed in one ratio or one sentence.
+- Promoter holding, pledge, related parties, or auditor notes missing on a listed company.
+- Other income versus profit, or cash from operations versus PAT, not mentioned when the statements were in scope.
+- Bull case that is only a higher multiple.
+- Two lenses disagreed and the memo averaged them or dropped one.
+- Market defined with a global TAM, or a non-India peer set treated as the Indian market.
+- Bootstrapped or private company given listed-company precision (revenue, margin, retention) without a filing.
+- Language that tells the reader to buy, sell, hold, or expect a price.
+
+## Return
+
+```markdown
+## Critic
+- Breaks the thesis: ...
+- Weakens it: ...
+- Nit: ...
+
+## Revised conclusion
+One paragraph. "Do not conclude" is a valid conclusion.
+
+## Disclaimer
+[paste the disclaimer]
+```
+
+Severity:
+
+- Breaks the thesis: a missing or contradicted fact the conclusion depends on.
+- Weakens it: a real gap that leaves the conclusion standing only as a hypothesis.
+- Nit: wording or order. Do not use this bucket to hide a broken figure.
+
+If the memo survives, say what you checked and that you did not find a breaking gap. Do not invent a weakness to look rigorous.

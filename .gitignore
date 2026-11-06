@@ -1,0 +1,10 @@
+# Recreated by scripts/link-skills.ps1. Junctions store absolute paths.
+.agents/
+.claude/skills/
+
+# Local session memory from the Remember plugin.
+.remember/
+
+Thumbs.db
+Desktop.ini
+.DS_Store
