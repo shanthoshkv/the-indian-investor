@@ -7,6 +7,21 @@ Version numbers follow the manifest in `.claude-plugin/plugin.json`.
 
 ## [Unreleased]
 
+### Added
+
+- `read-filings`. A file under `filings/<issuer>/` is read before the exchange. The shapes come from Avenue Supermarts files opened on this machine: the FY26 annual report, the quarter ended 30 September 2026 inline XBRL, the 10 October 2026 board PDF, the NSE shareholding-page shell, and the ICRA rationale dated 5 January 2026. Column XIV was on the page. The company rows were not. The October 2026 rating link was not opened. The PDFs stay gitignored.
+- `review-decision` and `decisions/TEMPLATE.md`. The user writes what they did. A later reread checks only that list against the next annual report. Claude wrapper in `.claude/agents/review-decision.md`.
+- Capital versus profit, and where the cash went, in `analyze-financials/references/statements.md`. Computed. No hurdle. A commitment is not cash spent. A quotation of the buy-back regulations is not a buyback.
+- `diff-results`. The new quarter against the last memo's "what would change the conclusion" list. The quarter stays out of the annual ratios. Claude wrapper in `.claude/agents/diff-results.md`.
+- `skills/indian-investor/references/circle.md`. An empty list leaves the gate open and the memo says the circle is not filled. A filled list stops a company outside it.
+- `note-costs`. Brokerage, delivery STT, and holding-period tax only from a page opened. Claude wrapper in `.claude/agents/note-costs.md`.
+- Avenue Supermarts from the files that opened, in `evals/filings-avenue-supermarts.md`. Pledge is not found. The income-tax rate is not found. No hurdle. Circle not filled.
+
+### Changed
+
+- The router, source order, memo contract, critic checklist, and `analyze-financials` point at those methods.
+- `filings/` and personal files under `decisions/` stay gitignored. `decisions/TEMPLATE.md` stays in the repo.
+
 ## [0.2.0] - 2026-11-07
 
 ### Added

@@ -5,6 +5,13 @@
 # Local session memory from the Remember plugin.
 .remember/
 
+# Filings saved on this machine. The method is skills/read-filings.
+filings/
+
+# The user's decision notes. The blank template stays.
+decisions/*
+!decisions/TEMPLATE.md
+
 Thumbs.db
 Desktop.ini
 .DS_Store

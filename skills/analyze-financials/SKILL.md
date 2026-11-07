@@ -28,7 +28,7 @@ Listed NSE or BSE companies. Read `references/statements.md` and follow it. If t
 
 ## Source order
 
-Follow `../indian-investor/references/sources.md`. Annual report and exchange filing before any data website. If two sources disagree, show both and use the filing.
+Follow `../indian-investor/references/sources.md`. Before the exchange, read `../read-filings/SKILL.md`. A file in `filings/<issuer>/` is the filing. If that file is absent and the exchange page was not opened, the figure is not found.
 
 Open the PDF or the filing page. Cite the note or the page. Do not build a downloader.
 
@@ -40,6 +40,12 @@ Open the PDF or the filing page. Cite the note or the page. Do not build a downl
 
 ## Statements
 Short notes on P&L, balance sheet, and cash flow. Call out CFO versus PAT and other income versus profit.
+
+## Capital and profit
+The comparison in `references/statements.md`. Computed. No hurdle.
+
+## Where the cash went
+Dividend, buyback, dilution, ESOP, and capex, from filings opened. Same reference. Do not restate the actions skill.
 
 ## Price
 Close, date, and source, or "not found". A printed P/E stays a printed P/E.

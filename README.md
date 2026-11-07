@@ -28,6 +28,9 @@ Open this repo in the agent after running the link script below.
 | "Which mutual fund holds this stock?" | `analyze-funds`. A market-wide DII net is not a scheme holding. |
 | "What was the bonus, the dividend, or the index change?" | `analyze-actions`. An action is not a better business. |
 | "What did the rating agency say?" | `analyze-rating`. A news line is not the rationale. |
+| "Reread the decision I wrote last year." | `review-decision`. It checks that note. It does not say what to buy. |
+| "What changed in this quarter versus the last memo?" | `diff-results`. The quarter stays out of the annual ratios. |
+| "What did the trade cost?" | `note-costs`. A rate that was not on the page is not found. |
 
 Name a lens when you want it. If you name none on a full company memo, the default set is Damani, Buffett, and Munger. Industry skills run when you ask about the market, rivals, or leadership, or when a lens cannot answer without them.
 
@@ -58,6 +61,10 @@ Name a lens when you want it. If you name none on a full company memo, the defau
 | `analyze-funds` | One scheme's month-end portfolio from AMFI or the AMC. Not the market-wide DII net. |
 | `analyze-actions` | Dividend, split, bonus, buyback, and index add or drop. Not a better business. |
 | `analyze-rating` | The rating symbol on the exchange filing. The reason only if the rationale file was opened. |
+| `read-filings` | Local annual report, XBRL, Regulation 31, and rating PDF, read before the exchange. A missing file stays not found. |
+| `review-decision` | The user's decision note, reread against the next annual report. Not a buy. |
+| `diff-results` | The new quarter against the last memo's change list. Not an annual ratio. |
+| `note-costs` | Brokerage, STT, and holding-period tax from the page opened. |
 
 Lenses disagree on purpose. Damani is less willing to pay for growth than Jhunjhunwala. Agrawal's price test is not Buffett's owner-earnings bridge. The memo keeps both results.
 
@@ -73,6 +80,8 @@ People left out, because a public checklist was too thin to write without invent
 6. The disclaimer closes every full memo. No buy, sell, or certain target.
 
 Source order, in `skills/indian-investor/references/sources.md`:
+
+A file saved under `filings/<issuer>/` is read first (`read-filings`). The list below is what you open when that folder does not already hold the filing.
 
 1. Company annual report, quarterly results, investor presentation.
 2. BSE and NSE filings, including the shareholding pattern.
@@ -195,6 +204,7 @@ Subagents are Claude Code only. Codex does not read `.claude/agents/`. The porta
 - `analyze-flows` reads market-wide FII/FPI and DII cash from the NSE report, the BSE category-wise page when that page is the combined series, and NSDL or CDSL for confirmed FPI. The same skill covers NSDL calendar-year nets, quarterly nets when that page was opened, category-wise assets under custody with the year the page prints, and a fortnightly sector file. AUC and a sector row are not a company holding. It is not in the default memo. A day's flow is not a company fact and not an F&O tip. Illustration: [evals/flows-2026-11-06.md](evals/flows-2026-11-06.md). The NSE rows there are a search extract. A direct fetch of the NSE URL was not completed, NSDL rupee cells did not come through, and the BSE fetch was denied. No numeric sector or AUC figure was frozen. The extracts in hand did not foot, or they opened on an old default year.
 - `analyze-deals`, `analyze-funds`, `analyze-actions`, and `analyze-rating` load only when asked. Claude wrappers sit beside the flows wrapper. A deal is not the promoter percent. A scheme portfolio is not the DII net. A bonus, a split, or an index change is not a better business. A news line is not the rating rationale.
 - Avenue Supermarts, after the phase-2 annual memo: [evals/dmart-price-pledge.md](evals/dmart-price-pledge.md) (BSE close 3,166.00 on 23 October 2026, search extract, pledge not found), [evals/dmart-quarter-fy27.md](evals/dmart-quarter-fy27.md) (consolidated unaudited quarter and half year ended 30 September 2026, not mixed into the FY26 ratios), [evals/dmart-deals-sast.md](evals/dmart-deals-sast.md), [evals/dmart-rating.md](evals/dmart-rating.md), [evals/dmart-actions.md](evals/dmart-actions.md), [evals/dmart-funds.md](evals/dmart-funds.md). Prompt 5, all nine lenses then the critic: [evals/prompt-5-avenue-supermarts.md](evals/prompt-5-avenue-supermarts.md). Coffee Can stayed unloaded. The revised conclusion is do not conclude.
+- Local filings, capital versus profit, where the cash went, an empty circle, and a cost note: [evals/filings-avenue-supermarts.md](evals/filings-avenue-supermarts.md). The Regulation 31 rows did not load. The October 2026 rating link was not opened. The income-tax rate page was not opened. No hurdle is applied. The circle list is empty, so the gate stayed open.
 
 ## Out of this pack
 
@@ -204,6 +214,7 @@ Subagents are Claude Code only. Codex does not read `.claude/agents/`. The porta
 - Non-India listings, including ADRs of non-Indian issuers, except a one-line refusal
 - Crypto, F&O tips, and intraday calls
 - A stored history of FII and DII flows, of scheme portfolios, or of deals, or a day's flow, a deal, a bonus, an index change, or a rating symbol treated as a buy or a sell
+- Filing PDFs and the user's decision notes. Those stay on the machine. The blank decision template is in the repo.
 
 ## License
 

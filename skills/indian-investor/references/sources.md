@@ -2,6 +2,8 @@
 
 Use this order. A later source does not override an earlier one.
 
+Before the list, read a file the user saved under `filings/<issuer>/`. The method is `../../read-filings/SKILL.md`. The list is what you open when that folder does not already hold the filing. A figure missing from the folder, whose exchange page was not opened, stays "not found".
+
 1. The company's annual report, quarterly results, and investor presentation. Cite the document, the fiscal period, and the note or page.
 2. BSE and NSE filings: financial results, corporate announcements, and the shareholding pattern (promoter holding and pledge live here, not in the P&L).
 3. SEBI disclosures when the question is about insiders, pledges, or a takeover.
@@ -27,3 +29,7 @@ FII, FPI, and DII cash flows are not a company filing. The method is in `../../a
 ## Company disclosures that are not the statements
 
 Block and bulk deals, SAST and insider rows, a scheme portfolio, a corporate action, and a credit-rating rationale are not the P&L. The methods are `../../analyze-deals/SKILL.md`, `../../analyze-funds/SKILL.md`, `../../analyze-actions/SKILL.md`, and `../../analyze-rating/SKILL.md`. Load one only when the question is that disclosure. A deal is not the promoter percent. A scheme holding is not the market-wide DII net. A bonus or an index change is not a better business. A news line is not the rating rationale.
+
+## Your own files
+
+The circle gate is `circle.md`. A decision note, a quarterly diff, and a cost note load only when asked: `../../review-decision/SKILL.md`, `../../diff-results/SKILL.md`, and `../../note-costs/SKILL.md`. A cost rate comes from the page opened for that year.

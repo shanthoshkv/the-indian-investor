@@ -26,7 +26,7 @@ Router for this pack. Read `references/scope.md`, `references/sources.md`, `refe
 
 ## Order
 
-1. Scope gate. Name the issuer, NSE or BSE symbol, or private India company. Classify bootstrapped vs VC- or PE-backed. If the name is ambiguous, ask one question and stop.
+1. Scope gate. Name the issuer, NSE or BSE symbol, or private India company. Classify bootstrapped vs VC- or PE-backed. Read `references/circle.md` and apply its gate. If the name is ambiguous, ask one question and stop.
 2. Facts before opinions. Listed: read `../analyze-financials/SKILL.md` and follow it. Private: read `../analyze-bootstrapped/SKILL.md` and follow it. Do not open a persona first.
 3. Lenses the user named, and no others. If they named none on a full company memo, use Damani, Buffett, and Munger, and say that is the default set.
    - `../lens-buffett/SKILL.md`
@@ -51,6 +51,9 @@ Router for this pack. Read `references/scope.md`, `references/sources.md`, `refe
    - `../analyze-funds/SKILL.md` for a named scheme's month-end holding.
    - `../analyze-actions/SKILL.md` for a dividend, split, bonus, buyback, or index add or drop.
    - `../analyze-rating/SKILL.md` for a credit-rating symbol or its rationale.
+   - `../review-decision/SKILL.md` for the user's own decision note, or a reread of that note against the next annual report.
+   - `../diff-results/SKILL.md` for a new quarter against the last memo's "what would change the conclusion" list.
+   - `../note-costs/SKILL.md` for brokerage, STT, and holding-period tax.
 
 ## Conflicts
 
@@ -72,6 +75,9 @@ Flows stay in the section above. These also stay unloaded on a default company m
 - A named scheme's month-end portfolio: `../analyze-funds/SKILL.md`. A market-wide DII net is not that holding.
 - Dividend, split, bonus, buyback, or an index add or drop: `../analyze-actions/SKILL.md`. An action is not a better business.
 - A credit-rating symbol or rationale: `../analyze-rating/SKILL.md`. A news line is not the rationale.
+- The user's decision note, or a one-year reread of it: `../review-decision/SKILL.md`. It does not say what to buy.
+- A new quarter against the last memo's change list: `../diff-results/SKILL.md`. The quarter stays out of the annual ratios.
+- Brokerage, STT, and holding-period tax: `../note-costs/SKILL.md`. A rate the page did not print is not found.
 
 ## Single questions
 

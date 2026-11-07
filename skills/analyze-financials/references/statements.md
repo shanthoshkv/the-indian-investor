@@ -4,6 +4,8 @@ Contents
 
 - Which statements
 - Ratios (one definition each)
+- Capital and profit
+- Where the cash went
 - Working capital days
 - Notes that are not in the P&L
 - Flags
@@ -35,6 +37,28 @@ Use these definitions. If a website uses another formula, record both and treat 
 - Other income share = other income / profit before tax.
 
 EBIT is profit before exceptional items, tax, and finance cost. If you leave exceptionals in, say so. Do not annualize one quarter and call it ROCE.
+
+## Capital and profit
+
+From the years you opened, on one statement. Sit these next to ROCE. Label any comparison computed. Do not invent a hurdle rate. Do not call a year a pass or a fail because capital in was larger than profit.
+
+- Profit out is profit for the year. If profit attributable to owners differs, show that too. Same statement, same year.
+- The PPE line is the cash-flow line for purchase of property, plant and equipment. Name the line.
+- Capital commitments come from the commitments note. A commitment is not cash spent. Do not add it to the PPE line.
+- New borrowings are proceeds minus repayments on the financing section, or the change in the borrowings line. Say which. A dash the statement uses for no amount is nil. A blank cell is not found.
+- Leases are the lease-payment line, or the change in lease liabilities. Say which. Do not add lease liabilities into net debt. That rule is in the ratios section.
+
+Do not add those lines into one capital total unless you show the sum and label it computed.
+
+## Where the cash went
+
+One section, for the years on the page. Each line comes from a filing you opened. If the pages do not contain it, that line is not found.
+
+- Dividend: the cash-flow dividends line, or the directors' sentence that none was recommended, or the auditor's sentence. An exchange ex-date is `../../analyze-actions/SKILL.md`. Do not restate that method.
+- Buyback: only a buyback the filing says the company carried out. A quotation of the buy-back regulations is not a buyback.
+- Dilution: shares allotted in the year, from the directors' report or the share-capital note, with the exercise price if that note prints it. The cash-flow proceeds from share options are that cash line. Do not force the two to match.
+- ESOP: the expense line and the allotment. Do not add the expense back to profit.
+- Capex: the same PPE cash line as in capital and profit. Point at it. Do not print a second analysis of the same number.
 
 ## Working capital days
 
