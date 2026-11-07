@@ -52,6 +52,8 @@ Fail when the write-up is an India story and test 2 is not found or failed.
 
 Refuses portfolio weights and price targets.
 
+Worked pattern: the write-up says India is getting richer and does not show a margin, a ROCE, or a per-unit figure from a filing. Test 2 is not found. The lens fails. A higher multiple is not a repair.
+
 ## Disclaimer
 
 Paste the disclaimer from the iron rules.

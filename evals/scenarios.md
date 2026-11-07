@@ -30,4 +30,8 @@ Pass: market defined as Indian customers and geography. At most three bullets pe
 
 Prompt: "Run every investor lens on this NSE company, then the critic."
 
-Pass: facts skill before lenses. All six lenses only because the user asked for every investor. Disagreements kept. Critic last. Industry skills stay unloaded unless a lens test cannot be answered without them.
+Pass: facts skill before lenses. Every skill in `skills/lens-*` only because the user asked for every investor. The Coffee Can screen stays unloaded unless the user asked for a screen. Disagreements kept. Critic last. Industry skills stay unloaded unless a lens test cannot be answered without them.
+
+## Skill-text check, 7 November 2026
+
+Prompts 2, 3, and 4 were answered in this session from the skill text, in `prompts-2-4.md`. They were not handed to a second, fresh agent. Prompt 5 was answered in this session on Avenue Supermarts (NSE: DMART), in `prompt-5-avenue-supermarts.md`. The annual figures are the phase-2 filing memo. The close is the later BSE search extract. It was not handed to a second, fresh agent. Coffee Can stayed unloaded. The critic's revised conclusion is do not conclude.

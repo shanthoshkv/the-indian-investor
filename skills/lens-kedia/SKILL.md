@@ -60,6 +60,8 @@ Do not add "sit tight" when any letter is fail or not found.
 - Refuses to opine on:
 ```
 
+Worked pattern: the company is smaller than the named leader on revenue, and no share and no exchange market cap were opened. S is not found. "Sit tight" is not added.
+
 ## Disclaimer
 
 Paste the disclaimer from the iron rules.

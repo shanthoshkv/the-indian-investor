@@ -41,7 +41,7 @@ Label the result inference.
 
 - PAT
 - plus depreciation and amortisation
-- minus maintenance capex (state the rule: depreciation as a proxy, or a split you can point to in the capex note)
+- minus maintenance capex (state the rule: depreciation as a proxy, or a split you can point to in the capex note). New stores, new plants, or a capex line larger than depreciation are not maintenance. Unless the note splits them, owner earnings stays not found.
 - minus the increase in working capital that consumed cash (or plus a decrease)
 
 ## Kill

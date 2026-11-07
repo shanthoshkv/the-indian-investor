@@ -38,6 +38,11 @@ Mark each item pass, fail, or not applicable. A fail needs the sentence in the m
 - Market defined with a global TAM, or a non-India peer set treated as the Indian market.
 - Bootstrapped or private company given listed-company precision (revenue, margin, retention) without a filing.
 - Language that tells the reader to buy, sell, hold, or expect a price.
+- A company-printed P/E used as an exchange market cap, or an annual-report dash or Nil used as the Regulation 31 pledge.
+- One issuer's revenue divided by another's and called a market share.
+- A Coffee Can pass, or a QGLP pass, on years whose filings were not opened.
+- An NSE-only cash net blended with the NSE+BSE+MSEI net, a day's market flow used as a reason to buy or sell a named stock, or a portal flow used when the exchange or depository page was opened and they differ.
+- A bulk or block deal used as the promoter percent, a market-wide DII figure used as a named fund's holding, a bonus, split, or index change used as a change in the business, or a news line used as the credit-rating rationale.
 
 ## Return
 

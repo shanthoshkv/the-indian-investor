@@ -19,3 +19,11 @@ Use this order. A later source does not override an earlier one.
 ## Freshness
 
 Name the filing date or the period end you used. Do not describe a ratio as current without that date.
+
+## Market-wide flows
+
+FII, FPI, and DII cash flows are not a company filing. The method is in `../../analyze-flows/SKILL.md`. A portal figure does not override an NSE, BSE, NSDL, or CDSL page that was opened. Calendar nets, assets under custody, and a sector file stay in that skill. They are still not a holding in one company.
+
+## Company disclosures that are not the statements
+
+Block and bulk deals, SAST and insider rows, a scheme portfolio, a corporate action, and a credit-rating rationale are not the P&L. The methods are `../../analyze-deals/SKILL.md`, `../../analyze-funds/SKILL.md`, `../../analyze-actions/SKILL.md`, and `../../analyze-rating/SKILL.md`. Load one only when the question is that disclosure. A deal is not the promoter percent. A scheme holding is not the market-wide DII net. A bonus or an index change is not a better business. A news line is not the rating rationale.

@@ -13,7 +13,7 @@ compatibility: >
 
 # Analyze financials
 
-Listed NSE or BSE companies. Read `references/statements.md` and follow it. If the issuer is a bank or an RBI-regulated NBFC, read `references/lenders.md` instead of the non-financial ratio section.
+Listed NSE or BSE companies. Read `references/statements.md` and follow it. If the issuer is a bank or an RBI-regulated NBFC, read `references/lenders.md` instead of the non-financial ratio section. Price, the Regulation 31 pledge file, and the governance series are defined in `references/statements.md`. Jewellery, retail stores, IT services, pharmaceuticals, and insurers also use `references/sectors.md`.
 
 ## Iron rules
 
@@ -41,8 +41,11 @@ Open the PDF or the filing page. Cite the note or the page. Do not build a downl
 ## Statements
 Short notes on P&L, balance sheet, and cash flow. Call out CFO versus PAT and other income versus profit.
 
+## Price
+Close, date, and source, or "not found". A printed P/E stays a printed P/E.
+
 ## Promoter, pledge, related parties, auditor
-One subsection each. "Not found" if the filing you opened does not contain it.
+One subsection each. Pledge is the Regulation 31 figure. "Not found" if that file was not opened. A dash in the annual report is not zero.
 
 ## Flags
 Only items the references tell you to flag. No recommendation.

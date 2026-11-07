@@ -35,17 +35,43 @@ Router for this pack. Read `references/scope.md`, `references/sources.md`, `refe
    - `../lens-jhunjhunwala/SKILL.md`
    - `../lens-kedia/SKILL.md`
    - `../lens-agrawal/SKILL.md`
+   - `../lens-prasad/SKILL.md`
+   - `../lens-bakshi/SKILL.md`
+   - `../lens-andrade/SKILL.md`
+   The Coffee Can screen is `../screen-coffee-can/SKILL.md`. Load it only when the user asks for that screen. It is not a lens and it is not in the default set.
 4. Industry skills only when the user asked about the industry, rivals, or leadership, or a lens test cannot be answered without them.
    - `../analyze-market/SKILL.md`
    - `../analyze-competition/SKILL.md`
    - `../analyze-market-leader/SKILL.md`
    - `../analyze-swot/SKILL.md`
 5. Every full memo ends by reading `../critique-thesis/SKILL.md` and applying it to the draft.
-6. Do not load a skill you will not use.
+6. Do not load a skill you will not use. These load only when the user asks. They are not part of the default company memo.
+   - `../analyze-flows/SKILL.md` for FII, FPI, DII, or institutional cash buying and selling, including a calendar net, assets under custody, or a sector file when that page was opened.
+   - `../analyze-deals/SKILL.md` for block deals, bulk deals, or SAST or insider disclosures of one company.
+   - `../analyze-funds/SKILL.md` for a named scheme's month-end holding.
+   - `../analyze-actions/SKILL.md` for a dividend, split, bonus, buyback, or index add or drop.
+   - `../analyze-rating/SKILL.md` for a credit-rating symbol or its rationale.
 
 ## Conflicts
 
-When two lenses disagree, keep both results under "Where the lenses disagree". Damani is less willing to pay for growth than Jhunjhunwala. Agrawal's price test is not Buffett's owner-earnings bridge. Do not blend them into a score.
+When two lenses disagree, keep both results under "Where the lenses disagree". Damani is less willing to pay for growth than Jhunjhunwala. Agrawal's price test is not Buffett's owner-earnings bridge. Prasad does not forecast and does not underwrite a turnaround. Andrade marks a high return while leaders add capacity as a cycle. Bakshi's float test is not the owner-earnings bridge. Coffee Can is a decade screen, not QGLP. Do not blend them into a score.
+
+## Compare
+
+When the user asks to compare Indian issuers, follow the Compare section in `references/memo.md`. Run the facts skill for each issuer before any lens.
+
+## Flows
+
+When the user asks about FII, FPI, DII, or institutional cash buying and selling, read `../analyze-flows/SKILL.md` and follow it. Do not load it on a company memo unless they asked. A market flow is not a company fact. A calendar net, assets under custody, and a sector file stay in that skill. They are still market-wide.
+
+## Named only
+
+Flows stay in the section above. These also stay unloaded on a default company memo.
+
+- Block, bulk, SAST, or insider rows: `../analyze-deals/SKILL.md`. A deal is not the promoter percent.
+- A named scheme's month-end portfolio: `../analyze-funds/SKILL.md`. A market-wide DII net is not that holding.
+- Dividend, split, bonus, buyback, or an index add or drop: `../analyze-actions/SKILL.md`. An action is not a better business.
+- A credit-rating symbol or rationale: `../analyze-rating/SKILL.md`. A news line is not the rationale.
 
 ## Single questions
 

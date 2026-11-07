@@ -51,6 +51,8 @@ Fail quality when the ratios were not built from filings. Do not borrow a screen
 
 When the Buffett lens also ran, do not replace its owner-earnings bridge with this multiple. Note the difference in one line if the two price tests disagree.
 
+Worked pattern: one year of high ROE, and a data website's "ten-year ROCE" label with those years unopened. Quality is not passed. That label is the Coffee Can screen, and it is not this lens.
+
 ## Disclaimer
 
 Paste the disclaimer from the iron rules.

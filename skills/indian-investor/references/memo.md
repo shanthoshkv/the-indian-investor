@@ -15,6 +15,24 @@ One paragraph. What it sells, to whom, in India.
 | Metric | Value | Period | Consolidated or standalone | Source |
 | --- | --- | --- | --- | --- |
 
+## Compare
+Only if the user asked to compare Indian issuers. One evidence table per issuer. Same period and the same statement type in any ratio that uses two issuers. Do not divide one revenue by another and call the result a market share. Do not average a lens across issuers.
+
+## Flows
+Only if analyze-flows ran. Market-wide cash. Not a fact about this issuer. The method is in `../../analyze-flows/SKILL.md`.
+
+## Deals
+Only if analyze-deals ran. Exchange rows for this issuer. Not the promoter percent. The method is in `../../analyze-deals/SKILL.md`.
+
+## Funds
+Only if analyze-funds ran. One scheme's month-end portfolio. Not the market-wide DII net. The method is in `../../analyze-funds/SKILL.md`.
+
+## Actions
+Only if analyze-actions ran. Dividend, split, bonus, buyback, or index membership. Not a change in the business. The method is in `../../analyze-actions/SKILL.md`.
+
+## Rating
+Only if analyze-rating ran. The symbol the exchange row prints. The reason only if the rationale file was opened. The method is in `../../analyze-rating/SKILL.md`.
+
 ## Lenses
 One heading per lens that ran. Pass / fail / not found on that lens's tests.
 
