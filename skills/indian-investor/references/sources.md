@@ -32,4 +32,8 @@ Block and bulk deals, SAST and insider rows, a scheme portfolio, a corporate act
 
 ## Your own files
 
-The circle gate is `circle.md`. A decision note, a quarterly diff, and a cost note load only when asked: `../../review-decision/SKILL.md`, `../../diff-results/SKILL.md`, and `../../note-costs/SKILL.md`. A cost rate comes from the page opened for that year.
+The circle gate is `circle.md`. A decision note, a quarterly diff, and a cost note load only when asked: `../../review-decision/SKILL.md`, `../../diff-results/SKILL.md`, and `../../note-costs/SKILL.md`. A cost rate comes from the page opened for that year. The holdings list is `holdings/`, and it loads only when asked: `../../review-diversification/SKILL.md`.
+
+## Screens from papers read locally
+
+`../../screen-piotroski/SKILL.md` and `../../screen-altman/SKILL.md` load only when asked. The papers sit in `library/` on this machine. They are not a company filing. A score is not a filing figure. `library/SOURCES.md` says what was saved and what was not downloaded.

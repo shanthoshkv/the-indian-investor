@@ -31,6 +31,9 @@ Open this repo in the agent after running the link script below.
 | "Reread the decision I wrote last year." | `review-decision`. It checks that note. It does not say what to buy. |
 | "What changed in this quarter versus the last memo?" | `diff-results`. The quarter stays out of the annual ratios. |
 | "What did the trade cost?" | `note-costs`. A rate that was not on the page is not found. |
+| "Run a Piotroski screen." | `screen-piotroski`. A missing input leaves the total not found. Not a buy list. |
+| "What is the Altman Z-score?" | `screen-altman`. Z unless you name the private-firm or non-manufacturer version. Not a default probability. |
+| "Is this holdings list diversified?" | `review-diversification`. Your list. No stock-count cutoff. |
 
 Name a lens when you want it. If you name none on a full company memo, the default set is Damani, Buffett, and Munger. Industry skills run when you ask about the market, rivals, or leadership, or when a lens cannot answer without them.
 
@@ -65,10 +68,13 @@ Name a lens when you want it. If you name none on a full company memo, the defau
 | `review-decision` | The user's decision note, reread against the next annual report. Not a buy. |
 | `diff-results` | The new quarter against the last memo's change list. Not an annual ratio. |
 | `note-costs` | Brokerage, STT, and holding-period tax from the page opened. |
+| `screen-piotroski` | Nine annual fundamental signals from filings opened. A missing input is not a zero. A screen, not a lens. |
+| `screen-altman` | The 1968 Z-score, or Z' or Z'' when that version is asked. Not a default probability. Not for a bank. |
+| `review-diversification` | The holdings list you wrote, with SEBI's risk page. No stock count. |
 
 Lenses disagree on purpose. Damani is less willing to pay for growth than Jhunjhunwala. Agrawal's price test is not Buffett's owner-earnings bridge. The memo keeps both results.
 
-People left out, because a public checklist was too thin to write without inventing one: Ashish Kacholia, Nemish Shah, Dolly Khanna, Porinju Veliyath, Ramesh Damani, Utpal Sheth. Chandrakant Sampat's "simple, little debt, free cash flow, low capex" test sits inside `lens-damani`. Coffee Can is `screen-coffee-can`. It is a screen, not a default lens.
+People left out, because a public checklist was too thin to write without inventing one: Ashish Kacholia, Nemish Shah, Dolly Khanna, Porinju Veliyath, Ramesh Damani, Utpal Sheth. Chandrakant Sampat's "simple, little debt, free cash flow, low capex" test sits inside `lens-damani`. Coffee Can is `screen-coffee-can`. Piotroski and Altman are screens, loaded only when asked. `review-diversification` reads a holdings list you write. It does not set a stock count. None of these is a default lens.
 
 ## Rules the agent must keep
 
@@ -123,7 +129,7 @@ evals/phase-*.md        live dry-run memos
 .claude/agents/         Claude Code wrappers; Codex does not read these
 AGENTS.md               always-on scope card for Codex
 CLAUDE.md               same non-negotiables for Claude Code
-.claude-plugin/         Claude Code plugin manifest, version 0.2.0
+.claude-plugin/         Claude Code plugin manifest, version 0.3.0
 CHANGELOG.md
 ```
 
@@ -205,6 +211,7 @@ Subagents are Claude Code only. Codex does not read `.claude/agents/`. The porta
 - `analyze-deals`, `analyze-funds`, `analyze-actions`, and `analyze-rating` load only when asked. Claude wrappers sit beside the flows wrapper. A deal is not the promoter percent. A scheme portfolio is not the DII net. A bonus, a split, or an index change is not a better business. A news line is not the rating rationale.
 - Avenue Supermarts, after the phase-2 annual memo: [evals/dmart-price-pledge.md](evals/dmart-price-pledge.md) (BSE close 3,166.00 on 23 October 2026, search extract, pledge not found), [evals/dmart-quarter-fy27.md](evals/dmart-quarter-fy27.md) (consolidated unaudited quarter and half year ended 30 September 2026, not mixed into the FY26 ratios), [evals/dmart-deals-sast.md](evals/dmart-deals-sast.md), [evals/dmart-rating.md](evals/dmart-rating.md), [evals/dmart-actions.md](evals/dmart-actions.md), [evals/dmart-funds.md](evals/dmart-funds.md). Prompt 5, all nine lenses then the critic: [evals/prompt-5-avenue-supermarts.md](evals/prompt-5-avenue-supermarts.md). Coffee Can stayed unloaded. The revised conclusion is do not conclude.
 - Local filings, capital versus profit, where the cash went, an empty circle, and a cost note: [evals/filings-avenue-supermarts.md](evals/filings-avenue-supermarts.md). The Regulation 31 rows did not load. The October 2026 rating link was not opened. The income-tax rate page was not opened. No hurdle is applied. The circle list is empty, so the gate stayed open.
+- `screen-piotroski`, `screen-altman`, and `review-diversification`. The definitions were read from the NBER working paper, Altman's NYU notes, and SEBI's risk page. `library/SOURCES.md` lists the books that were not downloaded. The PDFs stay on the machine. A score is not a buy. The holdings note does not set a stock count.
 
 ## Out of this pack
 
@@ -215,6 +222,8 @@ Subagents are Claude Code only. Codex does not read `.claude/agents/`. The porta
 - Crypto, F&O tips, and intraday calls
 - A stored history of FII and DII flows, of scheme portfolios, or of deals, or a day's flow, a deal, a bonus, an index change, or a rating symbol treated as a buy or a sell
 - Filing PDFs and the user's decision notes. Those stay on the machine. The blank decision template is in the repo.
+- Papers saved under `library/`. `library/SOURCES.md` says what was read and what was not downloaded. The PDFs stay on the machine.
+- The user's holdings notes. The blank template is in the repo.
 
 ## License
 

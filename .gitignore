@@ -12,6 +12,13 @@ filings/
 decisions/*
 !decisions/TEMPLATE.md
 
+# The user's holdings list. The blank template stays.
+holdings/*
+!holdings/TEMPLATE.md
+
+# Papers saved for reading. The note is library/SOURCES.md.
+library/*.pdf
+
 Thumbs.db
 Desktop.ini
 .DS_Store

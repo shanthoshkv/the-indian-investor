@@ -5,7 +5,7 @@ All notable changes to this skill pack are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Version numbers follow the manifest in `.claude-plugin/plugin.json`.
 
-## [Unreleased]
+## [0.3.0] - 2026-11-07
 
 ### Added
 
@@ -16,11 +16,17 @@ Version numbers follow the manifest in `.claude-plugin/plugin.json`.
 - `skills/indian-investor/references/circle.md`. An empty list leaves the gate open and the memo says the circle is not filled. A filled list stops a company outside it.
 - `note-costs`. Brokerage, delivery STT, and holding-period tax only from a page opened. Claude wrapper in `.claude/agents/note-costs.md`.
 - Avenue Supermarts from the files that opened, in `evals/filings-avenue-supermarts.md`. Pledge is not found. The income-tax rate is not found. No hurdle. Circle not filled.
+- `screen-piotroski`. Nine annual signals from Piotroski (2000), definitions read in Hou, Xue, and Zhang, NBER working paper 23394, appendix A.4.21. A missing input is not a zero. A high score is not a buy. The PDF stays gitignored. Claude wrapper in `.claude/agents/screen-piotroski.md`.
+- `screen-altman`. The 1968 Z equation, with Z' and Z'' only when that version is asked. Zones only as the NYU notes print them. No Z without a sourced market value. Not for a bank. The PDF stays gitignored. Claude wrapper in `.claude/agents/screen-altman.md`.
+- `review-diversification` and `holdings/TEMPLATE.md`. The user's list, read against SEBI's risk page. No stock-count cutoff. Claude wrapper in `.claude/agents/review-diversification.md`.
+- `library/SOURCES.md`. What was saved locally, which books were not downloaded, and which existing skill already covers a public checklist.
 
 ### Changed
 
 - The router, source order, memo contract, critic checklist, and `analyze-financials` point at those methods.
 - `filings/` and personal files under `decisions/` stay gitignored. `decisions/TEMPLATE.md` stays in the repo.
+- The router, memo contract, source note, critic checklist, and README point at the Piotroski screen, the Altman screen, and the diversification note.
+- `library/*.pdf` and personal files under `holdings/` stay gitignored. `holdings/TEMPLATE.md` stays in the repo.
 
 ## [0.2.0] - 2026-11-07
 
@@ -63,5 +69,6 @@ Version numbers follow the manifest in `.claude-plugin/plugin.json`.
 - `evals/scenarios.md` with five pressure prompts.
 - `AGENTS.md` and `CLAUDE.md` for the India-only rules.
 
+[0.3.0]: https://github.com/shanthoshkv/the-indian-investor/releases/tag/v0.3.0
 [0.2.0]: https://github.com/shanthoshkv/the-indian-investor/releases/tag/v0.2.0
 [0.1.0]: https://github.com/shanthoshkv/the-indian-investor/releases/tag/v0.1.0

@@ -44,6 +44,7 @@ Mark each item pass, fail, or not applicable. A fail needs the sentence in the m
 - An NSE-only cash net blended with the NSE+BSE+MSEI net, a day's market flow used as a reason to buy or sell a named stock, or a portal flow used when the exchange or depository page was opened and they differ.
 - A bulk or block deal used as the promoter percent, a market-wide DII figure used as a named fund's holding, a bonus, split, or index change used as a change in the business, or a news line used as the credit-rating rationale.
 - The circle file listed industries and the memo still analyzed a company outside them, a hurdle rate on capital versus profit that no filing prints, a quarterly figure mixed into an annual ratio inside a results diff, or a brokerage, STT, or tax rate that was not on the page opened.
+- An F-score or a Z-score printed when an input was not opened, a missing input scored as zero, a quarter used as the annual F, Z mixed with Z' or Z'', a zone number the notes did not print, or a stock-count cutoff on the diversification note.
 
 ## Return
 

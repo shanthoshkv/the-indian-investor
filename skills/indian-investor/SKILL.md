@@ -38,7 +38,7 @@ Router for this pack. Read `references/scope.md`, `references/sources.md`, `refe
    - `../lens-prasad/SKILL.md`
    - `../lens-bakshi/SKILL.md`
    - `../lens-andrade/SKILL.md`
-   The Coffee Can screen is `../screen-coffee-can/SKILL.md`. Load it only when the user asks for that screen. It is not a lens and it is not in the default set.
+   The Coffee Can screen is `../screen-coffee-can/SKILL.md`. Load it only when the user asks for that screen. It is not a lens and it is not in the default set. Piotroski and Altman are the same kind of screen. They are in the named-only list. They are not lenses.
 4. Industry skills only when the user asked about the industry, rivals, or leadership, or a lens test cannot be answered without them.
    - `../analyze-market/SKILL.md`
    - `../analyze-competition/SKILL.md`
@@ -54,10 +54,13 @@ Router for this pack. Read `references/scope.md`, `references/sources.md`, `refe
    - `../review-decision/SKILL.md` for the user's own decision note, or a reread of that note against the next annual report.
    - `../diff-results/SKILL.md` for a new quarter against the last memo's "what would change the conclusion" list.
    - `../note-costs/SKILL.md` for brokerage, STT, and holding-period tax.
+   - `../screen-piotroski/SKILL.md` for the nine annual signals. A missing input is not a zero.
+   - `../screen-altman/SKILL.md` for Z, and for Z' or Z'' only when that version was asked.
+   - `../review-diversification/SKILL.md` for the holdings list the user wrote.
 
 ## Conflicts
 
-When two lenses disagree, keep both results under "Where the lenses disagree". Damani is less willing to pay for growth than Jhunjhunwala. Agrawal's price test is not Buffett's owner-earnings bridge. Prasad does not forecast and does not underwrite a turnaround. Andrade marks a high return while leaders add capacity as a cycle. Bakshi's float test is not the owner-earnings bridge. Coffee Can is a decade screen, not QGLP. Do not blend them into a score.
+When two lenses disagree, keep both results under "Where the lenses disagree". Damani is less willing to pay for growth than Jhunjhunwala. Agrawal's price test is not Buffett's owner-earnings bridge. Prasad does not forecast and does not underwrite a turnaround. Andrade marks a high return while leaders add capacity as a cycle. Bakshi's float test is not the owner-earnings bridge. Coffee Can is a decade screen, not QGLP. Piotroski's F and Altman's Z are screens on US samples. A score is not a buy, and a missing input is not a zero. The diversification note does not set a stock count. Do not blend them into a score.
 
 ## Compare
 
@@ -78,6 +81,9 @@ Flows stay in the section above. These also stay unloaded on a default company m
 - The user's decision note, or a one-year reread of it: `../review-decision/SKILL.md`. It does not say what to buy.
 - A new quarter against the last memo's change list: `../diff-results/SKILL.md`. The quarter stays out of the annual ratios.
 - Brokerage, STT, and holding-period tax: `../note-costs/SKILL.md`. A rate the page did not print is not found.
+- Piotroski's nine annual signals: `../screen-piotroski/SKILL.md`. A missing input is not a zero. The total is not a buy.
+- Altman's Z, and Z' or Z'' only when that version was asked: `../screen-altman/SKILL.md`. Not a default probability. Not for a bank.
+- The user's holdings list: `../review-diversification/SKILL.md`. It does not set a stock count and does not name a trade.
 
 ## Single questions
 

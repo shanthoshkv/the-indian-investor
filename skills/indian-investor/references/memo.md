@@ -48,6 +48,15 @@ Only if diff-results ran. The new quarter against the last memo's change list. N
 ## Costs
 Only if note-costs ran. Rates from the page opened. The method is in `../../note-costs/SKILL.md`.
 
+## Screen: Piotroski
+Only if screen-piotroski ran. Nine annual tests. A missing input leaves the total not found. The method is in `../../screen-piotroski/SKILL.md`.
+
+## Screen: Altman
+Only if screen-altman ran. The version that was asked. Not a default probability. The method is in `../../screen-altman/SKILL.md`.
+
+## Diversification
+Only if review-diversification ran. The user's list. No stock-count cutoff. The method is in `../../review-diversification/SKILL.md`.
+
 ## Lenses
 One heading per lens that ran. Pass / fail / not found on that lens's tests.
 
