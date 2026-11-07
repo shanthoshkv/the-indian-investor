@@ -114,7 +114,7 @@ evals/phase-*.md        live dry-run memos
 .claude/agents/         Claude Code wrappers; Codex does not read these
 AGENTS.md               always-on scope card for Codex
 CLAUDE.md               same non-negotiables for Claude Code
-.claude-plugin/         Claude Code plugin manifest, version 0.1.0
+.claude-plugin/         Claude Code plugin manifest, version 0.2.0
 CHANGELOG.md
 ```
 

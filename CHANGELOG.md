@@ -7,6 +7,8 @@ Version numbers follow the manifest in `.claude-plugin/plugin.json`.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-07
+
 ### Added
 
 - Phase 2 dry run on Avenue Supermarts (NSE: DMART) for the year ended 31 March 2026, in `evals/phase-2-avenue-supermarts.md`.
@@ -32,11 +34,6 @@ Version numbers follow the manifest in `.claude-plugin/plugin.json`.
 - `analyze-financials` now requires lease liabilities beside borrowings, treats a printed dash as nil and a blank extracted cell as not found, drops a cash-flow net-change line that does not bridge, and refuses to infer negative working capital from a grocery format.
 - `lens-damani` and `lens-buffett` carry the same two limits: grocery is not evidence of negative working capital, and new-store capex is not maintenance capex.
 
-### Not in 0.1.0 yet
-
-- Eval prompt 5 is written in this unreleased tree (`evals/prompt-5-avenue-supermarts.md`) and is not part of the 0.1.0 tag. Prompts 2–4 remain skill-text answers. Prompt 5 is also an in-session memo, not a second agent.
-- Any investor whose public method is still too thin to write without inventing a checklist.
-
 ## [0.1.0] - 2026-11-06
 
 ### Added
@@ -51,4 +48,5 @@ Version numbers follow the manifest in `.claude-plugin/plugin.json`.
 - `evals/scenarios.md` with five pressure prompts.
 - `AGENTS.md` and `CLAUDE.md` for the India-only rules.
 
+[0.2.0]: https://github.com/shanthoshkv/the-indian-investor/releases/tag/v0.2.0
 [0.1.0]: https://github.com/shanthoshkv/the-indian-investor/releases/tag/v0.1.0
