@@ -45,6 +45,7 @@ Mark each item pass, fail, or not applicable. A fail needs the sentence in the m
 - A bulk or block deal used as the promoter percent, a market-wide DII figure used as a named fund's holding, a bonus, split, or index change used as a change in the business, or a news line used as the credit-rating rationale.
 - The circle file listed industries and the memo still analyzed a company outside them, a hurdle rate on capital versus profit that no filing prints, a quarterly figure mixed into an annual ratio inside a results diff, or a brokerage, STT, or tax rate that was not on the page opened.
 - An F-score or a Z-score printed when an input was not opened, a missing input scored as zero, a quarter used as the annual F, Z mixed with Z' or Z'', a zone number the notes did not print, or a stock-count cutoff on the diversification note.
+- A broker quote used as the exchange close or as a market cap, an order described as sent, a derivative row turned into an F&O tip, or a figure from a server that was not connected.
 
 ## Return
 

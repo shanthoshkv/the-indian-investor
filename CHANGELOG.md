@@ -5,6 +5,17 @@ All notable changes to this skill pack are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Version numbers follow the manifest in `.claude-plugin/plugin.json`.
 
+## [0.4.0] - 2026-11-08
+
+### Added
+
+- `use-mcp` and `mcp/TEMPLATE.md`. An MCP server is optional and is not bundled. Zerodha's hosted Kite URL and tool list were read from the product page and the `zerodha/kite-mcp-server` README. A broker quote is not the exchange close. Order and GTT tools are not called. No API key is stored. Claude wrapper in `.claude/agents/use-mcp.md`.
+
+### Changed
+
+- The router, memo contract, source note, critic checklist, price rule, and Altman market-value line point at that skill.
+- Personal files under `mcp/` stay gitignored. `mcp/TEMPLATE.md` stays in the repo.
+
 ## [0.3.0] - 2026-11-07
 
 ### Added
@@ -69,6 +80,7 @@ Version numbers follow the manifest in `.claude-plugin/plugin.json`.
 - `evals/scenarios.md` with five pressure prompts.
 - `AGENTS.md` and `CLAUDE.md` for the India-only rules.
 
+[0.4.0]: https://github.com/shanthoshkv/the-indian-investor/releases/tag/v0.4.0
 [0.3.0]: https://github.com/shanthoshkv/the-indian-investor/releases/tag/v0.3.0
 [0.2.0]: https://github.com/shanthoshkv/the-indian-investor/releases/tag/v0.2.0
 [0.1.0]: https://github.com/shanthoshkv/the-indian-investor/releases/tag/v0.1.0

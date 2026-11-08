@@ -57,6 +57,7 @@ Router for this pack. Read `references/scope.md`, `references/sources.md`, `refe
    - `../screen-piotroski/SKILL.md` for the nine annual signals. A missing input is not a zero.
    - `../screen-altman/SKILL.md` for Z, and for Z' or Z'' only when that version was asked.
    - `../review-diversification/SKILL.md` for the holdings list the user wrote.
+   - `../use-mcp/SKILL.md` for an MCP server the user connected. A broker quote is not the exchange close. An order tool is not called.
 
 ## Conflicts
 
@@ -84,6 +85,7 @@ Flows stay in the section above. These also stay unloaded on a default company m
 - Piotroski's nine annual signals: `../screen-piotroski/SKILL.md`. A missing input is not a zero. The total is not a buy.
 - Altman's Z, and Z' or Z'' only when that version was asked: `../screen-altman/SKILL.md`. Not a default probability. Not for a bank.
 - The user's holdings list: `../review-diversification/SKILL.md`. It does not set a stock count and does not name a trade.
+- An MCP server the user connected, including Zerodha's hosted Kite server: `../use-mcp/SKILL.md`. It is not bundled. A broker quote is not the exchange close. An order tool is not called.
 
 ## Single questions
 

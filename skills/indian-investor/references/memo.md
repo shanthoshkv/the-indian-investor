@@ -57,6 +57,9 @@ Only if screen-altman ran. The version that was asked. Not a default probability
 ## Diversification
 Only if review-diversification ran. The user's list. No stock-count cutoff. The method is in `../../review-diversification/SKILL.md`.
 
+## Broker
+Only if use-mcp ran. A server the user connected. Not the exchange close. Not an order. The method is in `../../use-mcp/SKILL.md`.
+
 ## Lenses
 One heading per lens that ran. Pass / fail / not found on that lens's tests.
 

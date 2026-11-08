@@ -34,6 +34,7 @@ Open this repo in the agent after running the link script below.
 | "Run a Piotroski screen." | `screen-piotroski`. A missing input leaves the total not found. Not a buy list. |
 | "What is the Altman Z-score?" | `screen-altman`. Z unless you name the private-firm or non-manufacturer version. Not a default probability. |
 | "Is this holdings list diversified?" | `review-diversification`. Your list. No stock-count cutoff. |
+| "Add Zerodha, or read the broker MCP I connected." | `use-mcp`. Optional. A broker quote is not the exchange close. No orders. |
 
 Name a lens when you want it. If you name none on a full company memo, the default set is Damani, Buffett, and Munger. Industry skills run when you ask about the market, rivals, or leadership, or when a lens cannot answer without them.
 
@@ -71,6 +72,7 @@ Name a lens when you want it. If you name none on a full company memo, the defau
 | `screen-piotroski` | Nine annual fundamental signals from filings opened. A missing input is not a zero. A screen, not a lens. |
 | `screen-altman` | The 1968 Z-score, or Z' or Z'' when that version is asked. Not a default probability. Not for a bank. |
 | `review-diversification` | The holdings list you wrote, with SEBI's risk page. No stock count. |
+| `use-mcp` | An MCP server you connect yourself, including Zerodha's hosted Kite server. Not a filing. No orders. |
 
 Lenses disagree on purpose. Damani is less willing to pay for growth than Jhunjhunwala. Agrawal's price test is not Buffett's owner-earnings bridge. The memo keeps both results.
 
@@ -95,7 +97,7 @@ A file saved under `filings/<issuer>/` is read first (`read-filings`). The list 
 4. The sector regulator when it changes the business.
 5. Screener, Trendlyne, Tijori, or Moneycontrol only as a way to find the filing. If they disagree with the filing, the filing wins.
 
-There is no bulk downloader and no market-data API in this version.
+There is no bulk downloader and no market-data API in this version. A broker MCP you connect yourself is optional. The method is `use-mcp`. This pack does not ship that server and does not place an order.
 
 ## Install
 
@@ -129,7 +131,7 @@ evals/phase-*.md        live dry-run memos
 .claude/agents/         Claude Code wrappers; Codex does not read these
 AGENTS.md               always-on scope card for Codex
 CLAUDE.md               same non-negotiables for Claude Code
-.claude-plugin/         Claude Code plugin manifest, version 0.3.0
+.claude-plugin/         Claude Code plugin manifest, version 0.4.0
 CHANGELOG.md
 ```
 
@@ -215,8 +217,8 @@ Subagents are Claude Code only. Codex does not read `.claude/agents/`. The porta
 
 ## Out of this pack
 
-- A market-data server, a Screener scraper, or a database of ratios
-- Price alerts, portfolio tracking, or order placement
+- A shipped market-data server, a Screener scraper, or a database of ratios. A broker MCP you connect is `use-mcp`. It is not bundled.
+- Price alerts, a stored portfolio history, or order placement. `use-mcp` does not send an order.
 - A model portfolio or published recommendations
 - Non-India listings, including ADRs of non-Indian issuers, except a one-line refusal
 - Crypto, F&O tips, and intraday calls
@@ -224,6 +226,7 @@ Subagents are Claude Code only. Codex does not read `.claude/agents/`. The porta
 - Filing PDFs and the user's decision notes. Those stay on the machine. The blank decision template is in the repo.
 - Papers saved under `library/`. `library/SOURCES.md` says what was read and what was not downloaded. The PDFs stay on the machine.
 - The user's holdings notes. The blank template is in the repo.
+- API keys, API secrets, and passwords. The MCP template has no secret field. Personal notes under `mcp/` stay on the machine.
 
 ## License
 

@@ -14,6 +14,7 @@ Refuse or stop on: non-India listings, ADRs as the subject, crypto, F&O tips, in
 
 - Every figure needs a source, a period, and consolidated or standalone. If the source does not have it, write "not found".
 - Prefer the company filing and the exchange filing over a data website. If they disagree, show both and use the filing.
+- A connected MCP is optional. The method is `skills/use-mcp`. A broker quote does not replace a filing or an exchange close. Do not place, modify, or cancel an order.
 - INR. State crore or lakh. Indian fiscal year (April–March) unless the filing uses another year.
 - Mark each claim as fact, inference, or opinion.
 - Promoter holding, pledge, related parties, and auditor notes belong in the analysis.

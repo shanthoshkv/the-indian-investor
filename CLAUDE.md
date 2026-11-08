@@ -8,3 +8,4 @@ Non-negotiables:
 - Do not invent figures. Missing data is "not found", with source, period, and consolidated or standalone when a figure exists.
 - Promoter holding, pledge, related parties, and auditor notes are in scope.
 - Memos are research, not a buy, sell, or target. Close with the disclaimer in `skills/indian-investor/references/disclaimer.md`.
+- A broker MCP is optional (`skills/use-mcp`). Do not place an order. A broker quote is not an exchange close.

@@ -34,6 +34,10 @@ Block and bulk deals, SAST and insider rows, a scheme portfolio, a corporate act
 
 The circle gate is `circle.md`. A decision note, a quarterly diff, and a cost note load only when asked: `../../review-decision/SKILL.md`, `../../diff-results/SKILL.md`, and `../../note-costs/SKILL.md`. A cost rate comes from the page opened for that year. The holdings list is `holdings/`, and it loads only when asked: `../../review-diversification/SKILL.md`.
 
+## A server the user connected
+
+An MCP server is not in the list above. It loads only when asked: `../../use-mcp/SKILL.md`. A broker quote does not replace a filing or an exchange page that was opened. If the server was not connected, the figure is not found. An order tool is not called.
+
 ## Screens from papers read locally
 
 `../../screen-piotroski/SKILL.md` and `../../screen-altman/SKILL.md` load only when asked. The papers sit in `library/` on this machine. They are not a company filing. A score is not a filing figure. `library/SOURCES.md` says what was saved and what was not downloaded.

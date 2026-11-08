@@ -19,6 +19,10 @@ holdings/*
 # Papers saved for reading. The note is library/SOURCES.md.
 library/*.pdf
 
+# The user's MCP notes. The blank template stays. No keys.
+mcp/*
+!mcp/TEMPLATE.md
+
 Thumbs.db
 Desktop.ini
 .DS_Store

@@ -84,7 +84,7 @@ One close, one date. Prefer the NSE or BSE page. If you use the annual report's 
 
 When the source gives them, report the close and date, the market cap, and the multiple that same source prints. If you compute price / EPS, show both numbers and the EPS period. Do not put a quarterly EPS under an annual multiple.
 
-No target. Whether the multiple is attractive is a lens opinion, not a figure in this section. If neither the exchange page nor the filing has a price, write "not found". A split, bonus, or other action between two closes is `../../analyze-actions/SKILL.md`. Do not compare those closes as if the share were unchanged.
+No target. Whether the multiple is attractive is a lens opinion, not a figure in this section. If neither the exchange page nor the filing has a price, write "not found". A last price from a broker MCP is not this close. That method is `../../use-mcp/SKILL.md`. A split, bonus, or other action between two closes is `../../analyze-actions/SKILL.md`. Do not compare those closes as if the share were unchanged.
 
 ## Governance series
 
