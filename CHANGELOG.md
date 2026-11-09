@@ -5,6 +5,25 @@ All notable changes to this skill pack are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Version numbers follow the manifest in `.claude-plugin/plugin.json`.
 
+## [0.5.0] - 2026-11-09
+
+### Added
+
+- `value-reverse-dcf`, `check-governance`, `read-concall`, `track-shareholding`, and `note-policy`, each named-only, with Claude wrappers in `.claude/agents/`.
+- `scripts/reverse_dcf.py` (bisection solver with a self-check) and `scripts/link-skills.sh` for macOS and Linux.
+- `evals/rubric.md`: must-pass and should-pass checks, and failure prompts for the new skills.
+- Sector lines for real estate, PSUs, and capital goods in `analyze-financials/references/sectors.md`.
+- A decision table in the `indian-investor` router, and a data-freshness table in `references/memo.md`.
+
+### Changed
+
+- `critique-thesis` checks low-base growth, one-off PAT, survivorship, reverse-DCF misuse, and stale filings.
+- `analyze-competition` peer table adds ROCE, ROE, debt/equity, CFO/PAT, and working-capital days.
+- `screen-altman` says how Ind AS 116 lease liabilities enter X4.
+- `note-costs` adds LTCG grandfathering and dividend TDS rows, page-only.
+- `scope.md` puts NSE Emerge and BSE SME listings in scope, with a liquidity caveat.
+- README trimmed; the phase plan moved to `docs/history.md`. The "Ask for a memo" table and the skills table list the five new skills. Manifest gains author and keywords.
+
 ## [0.4.0] - 2026-11-08
 
 ### Added

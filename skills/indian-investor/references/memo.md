@@ -15,6 +15,11 @@ One paragraph. What it sells, to whom, in India.
 | Metric | Value | Period | Consolidated or standalone | Source |
 | --- | --- | --- | --- | --- |
 
+## Data freshness
+| Source | Date opened | Latest period it covers |
+| --- | --- | --- |
+One row per source opened. A filing whose period is more than one quarter behind the latest filed quarter is called stale here.
+
 ## Capital and profit
 When the statements were opened. The method is in `../../analyze-financials/references/statements.md`. Computed. No hurdle.
 
@@ -56,6 +61,21 @@ Only if screen-altman ran. The version that was asked. Not a default probability
 
 ## Diversification
 Only if review-diversification ran. The user's list. No stock-count cutoff. The method is in `../../review-diversification/SKILL.md`.
+
+## Valuation
+Only if value-reverse-dcf ran. Implied growth, not a target. The method is in `../../value-reverse-dcf/SKILL.md`.
+
+## Governance
+Only if check-governance ran. Flags, not a fraud finding. The method is in `../../check-governance/SKILL.md`.
+
+## Concall
+Only if read-concall ran. Said versus done. The method is in `../../read-concall/SKILL.md`.
+
+## Shareholding
+Only if track-shareholding ran. Quarterly series. The method is in `../../track-shareholding/SKILL.md`.
+
+## Policy
+Only if note-policy ran. Official text, effect only if filed. The method is in `../../note-policy/SKILL.md`.
 
 ## Broker
 Only if use-mcp ran. A server the user connected. Not the exchange close. Not an order. The method is in `../../use-mcp/SKILL.md`.

@@ -15,6 +15,30 @@ compatibility: >
 
 Router for this pack. Read `references/scope.md`, `references/sources.md`, `references/memo.md`, and `references/disclaimer.md` before writing. Do not restate each lens here.
 
+## Pick a skill
+
+| The user asks | Load |
+| --- | --- |
+| Full memo on a listed company | `analyze-financials`, then Damani, Buffett, Munger, then `critique-thesis` |
+| Private Indian company | `analyze-bootstrapped` |
+| One named lens or screen | that skill plus `analyze-financials` |
+| Industry size, rivals, leader, SWOT | `analyze-market`, `analyze-competition`, `analyze-market-leader`, `analyze-swot` |
+| What the price implies | `value-reverse-dcf` |
+| Red flags, governance | `check-governance` |
+| Did management deliver | `read-concall` |
+| Ownership over quarters | `track-shareholding` |
+| Who bought in bulk or block | `analyze-deals` |
+| Which fund holds it | `analyze-funds` |
+| PLI, duties, regulator circular | `note-policy` |
+| What changed this quarter | `diff-results` |
+| FII or DII market flows | `analyze-flows` |
+| Dividend, split, bonus, buyback, index | `analyze-actions` |
+| Credit rating | `analyze-rating` |
+| Trade costs and tax | `note-costs` |
+| My decision note, my holdings | `review-decision`, `review-diversification` |
+| Local filings | `read-filings` |
+| A connected MCP | `use-mcp` |
+
 ## Iron rules
 
 1. India only. NSE, BSE, or an India bootstrapped company. Anything else: stop and say so.
@@ -58,6 +82,11 @@ Router for this pack. Read `references/scope.md`, `references/sources.md`, `refe
    - `../screen-altman/SKILL.md` for Z, and for Z' or Z'' only when that version was asked.
    - `../review-diversification/SKILL.md` for the holdings list the user wrote.
    - `../use-mcp/SKILL.md` for an MCP server the user connected. A broker quote is not the exchange close. An order tool is not called.
+   - `../value-reverse-dcf/SKILL.md` for the growth the price implies. Not a target.
+   - `../check-governance/SKILL.md` for governance red flags. A flag is not a fraud finding.
+   - `../read-concall/SKILL.md` for said-versus-done on earnings calls. Guidance is not a fact.
+   - `../track-shareholding/SKILL.md` for the quarterly ownership series. Not a deal list.
+   - `../note-policy/SKILL.md` for PLI, duties, and regulator circulars. A policy is not a profit figure.
 
 ## Conflicts
 

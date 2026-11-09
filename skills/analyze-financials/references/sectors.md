@@ -32,3 +32,20 @@ Read this after `statements.md`. It says which lines to pick up. It does not set
 - Do not use inventory days or the non-financial ROCE in `statements.md`.
 - Combined ratio, solvency ratio, embedded value, and the investment book only when the filing prints them.
 - Float is unearned premium or a claims reserve on the balance sheet. Trade payables are not float. Do not invent a float earnings number.
+
+## Real estate
+
+- Use the company's own pre-sales or bookings figure only when its presentation or filing prints it, with area and value in separate sentences. Pre-sales are not revenue under Ind AS 115; revenue is recognised on completion or handover as the note says.
+- Customer advances and inventory (land, work in progress) are balance-sheet lines. Read the inventory note for land at cost versus market.
+- Joint-development and joint-venture projects: say whether the figure is the company's share or the project total.
+
+## Public sector undertakings
+
+- Government of India and state government holding come from the shareholding pattern, not the promoter line of a private company. Disinvestment news is not a filing.
+- Dividend policy: the DIPAM guideline only when that page was opened; otherwise the company's own dividend distribution policy.
+- Subsidies, administered prices, and receivables from government departments are separate lines when the note prints them. Do not net them.
+
+## Capital goods and EPC
+
+- Order book and order inflow only as the company prints them, with the date. An order book is not revenue.
+- Contract assets (unbilled revenue) and retention money are in working capital. Report them; do not fold them into trade receivables unless the note does.

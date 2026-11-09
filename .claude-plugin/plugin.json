@@ -1,8 +1,17 @@
 {
   "name": "the-indian-investor",
-  "version": "0.4.0",
-  "description": "India-only NSE, BSE, and bootstrapped-company research skills.",
+  "version": "0.5.0",
+  "description": "India-only research skills for NSE, BSE, and bootstrapped companies: filings, lenses, screens, governance, reverse DCF. Research memos, not advice.",
   "author": {
-    "name": "the-indian-investor"
-  }
+    "name": "Shanthosh KV"
+  },
+  "keywords": [
+    "india",
+    "nse",
+    "bse",
+    "equity-research",
+    "annual-report",
+    "sebi",
+    "investing"
+  ]
 }

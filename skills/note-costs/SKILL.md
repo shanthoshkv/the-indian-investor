@@ -42,6 +42,8 @@ Quote the delivery rows only. Leave the option and futures rows unread in the me
 - STT, delivery sale:
 - GST on broker services:
 - Holding-period tax:
+- LTCG exemption threshold and grandfathering date (31 January 2018), only as the opened page prints them:
+- Dividend TDS rate and threshold, only as the opened page prints them:
 - Page not opened:
 - Refuses to opine on:
 ```

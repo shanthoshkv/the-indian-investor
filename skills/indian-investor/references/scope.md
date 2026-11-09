@@ -8,6 +8,8 @@
 
 Buffett, Munger, Damani, Jhunjhunwala, Kedia, and Agrawal are lenses on an Indian business. Naming them does not expand the universe.
 
+- An SME-platform listing (NSE Emerge, BSE SME) is in scope. Say "SME platform" in the scope line. Half-yearly results, thinner disclosure, and lot-size trading are normal there; expect more "not found" and say liquidity was not assessed unless the exchange volume page was opened.
+
 ## Out
 
 Stop in one or two sentences. Do not start the memo.

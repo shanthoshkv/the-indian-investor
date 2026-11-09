@@ -45,6 +45,12 @@ Mark each item pass, fail, or not applicable. A fail needs the sentence in the m
 - A bulk or block deal used as the promoter percent, a market-wide DII figure used as a named fund's holding, a bonus, split, or index change used as a change in the business, or a news line used as the credit-rating rationale.
 - The circle file listed industries and the memo still analyzed a company outside them, a hurdle rate on capital versus profit that no filing prints, a quarterly figure mixed into an annual ratio inside a results diff, or a brokerage, STT, or tax rate that was not on the page opened.
 - An F-score or a Z-score printed when an input was not opened, a missing input scored as zero, a quarter used as the annual F, Z mixed with Z' or Z'', a zone number the notes did not print, or a stock-count cutoff on the diversification note.
+- Growth on a low base (a year after a loss, a strike, or a plant shutdown) presented as a run rate, with no base-year sentence.
+- PAT that rises on exceptional items, other income, a deferred-tax credit, or a one-time gain, presented as operating growth.
+- Only the survivors compared: peers or a past cycle chosen because they did well, with no mention of the ones that did not.
+- A reverse-DCF implied growth called a fair value or a target, a discount rate called the company's cost of equity, or a terminal growth at or above the discount rate.
+- A governance flag called fraud without a regulator order, a concall promise used as a fact, or a shareholding percent change read as a sale when the share count changed.
+- The data-freshness table missing, or a stale filing used while a later quarter was filed.
 - A broker quote used as the exchange close or as a market cap, an order described as sent, a derivative row turned into an F&O tip, or a figure from a server that was not connected.
 
 ## Return

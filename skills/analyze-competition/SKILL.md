@@ -37,7 +37,9 @@ Compare, in prose, only what the table supports: price position, cost position, 
 ```markdown
 ## Competition
 ### Listed peers
-| Company | Symbol | Revenue | Operating margin | Return | Period | Statement | Source |
+| Company | Symbol | Revenue | Operating margin | ROCE | ROE | Debt/equity | CFO/PAT | Working-capital days | Period | Statement | Source |
+
+Same period and same statement type across rows. A cell the filing does not support is "not found". The ratio methods are in `../analyze-financials/references/statements.md`. For a lender, swap the ratio columns for the ones in `../analyze-financials/references/lenders.md`.
 
 ### Unlisted rivals
 Names, and unverified or not found on figures.
