@@ -8,7 +8,7 @@ Research skills for Indian markets only. Memos cite filings for NSE, BSE, and bo
 git clone https://github.com/shanthoshkv/the-indian-investor && cd the-indian-investor && sh scripts/link-skills.sh
 ```
 
-On Windows PowerShell, run `powershell -File scripts/link-skills.ps1` inside the clone instead. See [Install](#install) for the plugin and user-wide setup.
+On Windows PowerShell, run `powershell -File scripts/link-skills.ps1` inside the clone instead. See [Install](#install) for other hosts and user-wide setup.
 
 Research skills for **Indian markets only**: companies listed on the NSE or BSE, and India-headquartered bootstrapped companies.
 
