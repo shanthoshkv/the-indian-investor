@@ -5,6 +5,14 @@ All notable changes to this skill pack are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Version numbers follow the manifest in `.claude-plugin/plugin.json`.
 
+## [Unreleased]
+
+### Added
+
+- MIT `LICENSE`. The README no longer says all rights reserved.
+- Demo GIF and one-line install at the top of the README.
+- `scripts/check_skills.py`, `CONTRIBUTING.md`, issue templates, and a GitHub Actions workflow that runs the check and the `reverse_dcf.py` self-check.
+
 ## [0.5.0] - 2026-11-09
 
 ### Added

@@ -1,5 +1,15 @@
 # The Indian Investor
 
+Research skills for Indian markets only. Memos cite filings for NSE, BSE, and bootstrapped Indian companies. Research, not advice.
+
+![demo](docs/demo.gif)
+
+```bash
+git clone https://github.com/shanthoshkv/the-indian-investor && cd the-indian-investor && sh scripts/link-skills.sh
+```
+
+On Windows PowerShell, run `powershell -File scripts/link-skills.ps1` inside the clone instead. See [Install](#install) for the plugin and user-wide setup.
+
 Research skills for **Indian markets only**: companies listed on the NSE or BSE, and India-headquartered bootstrapped companies.
 
 The pack is a set of [Agent Skills](https://agentskills.io). The same `SKILL.md` folders work in Claude Code, Codex, Cursor, GitHub Copilot, and Gemini CLI. A skill is a folder with YAML frontmatter (`name`, `description`) and instructions the agent loads when the task matches.
@@ -169,4 +179,4 @@ The phase plan, dry runs, and per-release notes are in [docs/history.md](docs/hi
 
 ## License
 
-No license file is set. All rights reserved until one is added.
+[MIT](LICENSE)
